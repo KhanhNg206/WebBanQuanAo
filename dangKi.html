@@ -4,18 +4,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Đăng nhập</title>
-    <link rel="stylesheet" href="../assets/css/base.css">
-    <link rel="stylesheet" href="../assets/css/dangNhap_dangKi.css">
-    <link rel="stylesheet" href="../assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
-    <script src="../assets/js/2dangnhap.js"></script>
+    <title>Đăng Kí</title>
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/dangNhap_dangKi.css">
+    <link rel="stylesheet" href="./assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
+    <script src="./assets/js/1dangki.js"></script>
 </head>
 
 <body>
     <div class="dangNhap_container">
         <div class="header">
             <div class="header__img-home">
-                <img src="../assets/img/logo01.png" alt="" class="img-home">
+                <img src="./assets/img/logo01.png" alt="" class="img-home">
             </div>
             <div class="header_nav">
                 <a class="header-nav_select" href="index.html">TRANG CHỦ</a>
@@ -47,40 +47,63 @@
             </div>
 
         </div>
+
+        <!-- code ở đây -->
         <div class="login">
-            <div class="dangNhap_center">
+            <div class="dangKi_center">
                 <div class="form-dangki-container fade-in">
                     <div class="form-tabs">
-                        <a href="dangKi.html" class="form-tab">ĐĂNG KÝ</a>
-                        <a href="" class="form-tab active">ĐĂNG NHẬP </a></span>
+                        <a href="" class="form-tab active">ĐĂNG KÝ</a></span>
+                        <a href="dangNhap.html" class="form-tab">ĐĂNG NHẬP</a>
                     </div>
-                    <form id="formDANGNHAP" class="form-dangki"">
-
+                    <form id="formDANGKI" class="form-dangki" >
+                        <div class="input-icon">
+                            <i class="fa-solid fa-user" class="col-3"></i>
+                            <input class="col-9" type="text" id="fullname" class="form-input" placeholder="Họ và tên"
+                                >
+                            <span class="required-star">*</span>
+                            <div id="NameErr" style="color: red; display: none; font-size: 15px;">Ten Khong Duoc De Trong</div>
+                        </div>
 
                         <div class="input-icon">
                             <i class="fa-solid fa-envelope" class="col-3"></i>
-                            <input class="col-9" type="email" id="email" class="form-input" placeholder="Email">
-                            <div id="EmailErr" style="color: red;  display: none; font-size: 15px;">Email Khong Duoc De Trong</div>
+                            <input class="col-9" type="email" id="email" class="form-input" placeholder="Email"
+                                >
                             <span class="required-star">*</span>
+                            <div id="EmailErr" style="color: red;  display: none; font-size: 15px;">Email Khong Duoc De Trong</div>
+                        </div>
+                        <div class="input-icon">
+                            <i class="fa-solid fa-phone" class="col-3"></i>
+                            <input class="col-9" type="text" id="sdt" class="form-input" placeholder="Số điện thoại">
+                            <span class="required-star">*</span>
+                            <div id="SDTErr" style="color: red;  display: none; font-size: 15px;">Số điện thoại không hợp lệ</div>
+                        </div>
+                        
+
+                        <div class="input-icon">
+                            <i class="fa-solid fa-lock" class="col-3"></i>
+                            <input class="col-9" type="password" id="password" class="form-input" placeholder="Mật khẩu"
+                                >
+                            <span class="required-star">*</span>
+                            <div id="PSErr" style="color: red;  display: none; font-size: 15px;">PassWord Khong Duoc De Trong</div>
                         </div>
 
                         <div class="input-icon">
                             <i class="fa-solid fa-lock" class="col-3"></i>
-                            <input class="col-9" type="password" id="password" class="form-input" placeholder="Mật khẩu">
-                            
+                            <input class="col-9" type="password" id="confirmPassword" class="form-input"
+                                placeholder="Nhập lại mật khẩu" >
                             <span class="required-star">*</span>
+                            <div id="CPSErr" style="color: red;  display: none; font-size: 15px;">PassWord Khong Duoc De Trong</div>
                         </div>
-                        <div id="passErr" style="color: red; display: none; font-size: 15px;" > Email or Mật Khẩu không đúng</div>
 
-
-                        <button type="submit" class="btn-submit">Đăng Nhập </button>
-                        <a href="quenMatKhau.html" class="forgot-password">Quên mật khẩu?</a>
-
+                        <button type="submit" class="btn-submit">Đăng ký</button>
                     </form>
+
+
                 </div>
             </div>
         </div>
-
+        <!-- kết thúc code -->
 
         <div class="fooster" id="contact">
             <div class="fooster-container">
@@ -137,7 +160,7 @@
             AlexShop cửa hàng uy tín bật nhất Đông Nam Á
         </div>
     </div>
-<script src="../DangNhap_DangKi/fontawesome-free-6.7.2-web/js/2dangnhap.js"></script>
+
 </body>
 
 </html>
