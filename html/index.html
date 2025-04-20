@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trang chủ</title>
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link href="../assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-6.7.2-web/css/all.min.css">   
+   
+
+    <script src="../assets/js/slider.js"></script>
+    <script src="../assets/js/product_change.js"></script>
+    <script src="../assets/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../assets/js/product_cart.js"></script>
+</head>
+<body>
+    <div class="main">
+        <div class="header">
+            <div class="header__img-home">
+                <img src="../assets/img/logo01.png" alt="" class="img-home">
+            </div>
+            <div class="header_nav">
+                <a class="header-nav_select" href="index.html">TRANG CHỦ</a>
+                <a class="header-nav_select" href="shop.html">CỬA HÀNG</a>
+                <div class="dropdown">
+                    <a class="header-nav_select" href="#">SẢN PHẨM</a>
+                    <div class="dropdown-menu">
+                        <a href="aoThun.html" class="dropdown-item">Áo Thun</a>
+                        <a href="aoSoMi.html" class="dropdown-item">Áo Sơ Mi</a>
+                        <a href="quan.html" class="dropdown-item">Quần</a>
+                        <a href="giay.html" class="dropdown-item">Giày</a>
+                        <a href="phuKien.html" class="dropdown-item">Phụ kiện</a>
+                        <!-- Thêm các sản phẩm khác nếu cần -->
+                    </div>
+                </div>
+                <a class="header-nav_select" href="gioiThieu.html">GIỚI THIỆU</a>
+                <a class="header-nav_select" href="#contact">LIÊN HỆ</a>
+            </div>
+
+            <div class="header_right">
+                <div class="header_right-search">
+                    <input type="text" class="header_search-input" placeholder="Tìm kiếm ở đây">
+                    <i class="header_search-icon fas fa-search"></i>
+                </div>
+                <div class="header_right-icon">
+                    <a href="dangNhap.html"><i class="header_right-icon-user fas fa-user"></i></a>
+                    <a href="giohang.html"><i class="header_right-icon-cart fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="slider">
+            <div class="slider_images">
+                <img src="../assets/img/slider/slider_img01.png" class="slider_img active">
+                <img src="../assets/img/slider/slider_img02.png" class="slider_img">
+                <img src="../assets/img/slider/slider_img03.png" class="slider_img">
+            </div>
+            <!-- <div class="slider_text-content">
+                <h2 class="slider_text-content-label">Thời Trang</h2>
+                <p class="slider_text-content-dscription">Phong cách thời trang lịch lãm</p>
+            </div> -->
+        </div>
+        
+
+        <div class="content" id="view">
+
+            <!-- section thứ nhất -->
+             <div class="content-section">
+                <h2 class="content-section_heading" >AlexShop</h2>
+                <p class="content-section_sub-heading">Chúng tôi là Alex Shop</p>
+                <p class="content-section-text">AlexShop là cửa hàng thời trang chuyên cung cấp quần áo hiện đại, phong cách và chất lượng. Chúng tôi luôn cập nhật xu hướng mới nhất, mang đến cho khách hàng những mẫu thiết kế đa dạng, phù hợp với mọi phong cách. Sản phẩm tại AlexShop được chọn lọc kỹ lưỡng, đảm bảo chất liệu tốt và giá cả hợp lý. Đội ngũ nhân viên thân thiện, sẵn sàng tư vấn giúp bạn tìm được trang phục ưng ý. Mua sắm tại AlexShop, bạn sẽ luôn tự tin với gu thời trang của mình. Hãy ghé thăm cửa hàng hoặc đặt hàng online ngay hôm nay!</p>
+                <!-- <section class="menu-section">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="menu-card">
+                                    <div class="menu-card-img">
+                                        <img src="../assets/img/NhomTruong.jpg" alt="">
+                                    </div>
+                                    <div class="menu-card-body">
+                                        <h5 class="menu-card-title">Thành viên 01</h5>
+                                        <p class="menu-card-text">Tên : Nguyễn Hà Nhật Khanh</p>
+                                        <p class="menu-card-text">MSSV : 23634741</p>
+                                        <p class="menu-card-text">Lớp : DHKTPM19A</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4">
+                                <div class="menu-card">
+                                    <div class="menu-card-img">
+                                        <img src="picture/f1.png" alt="Pizza">
+                                    </div>
+                                    <div class="menu-card-body">
+                                        <h5 class="menu-card-title">Thành viên 02</h5>
+                                        <p class="menu-card-text">Tên : Đoàn Quốc Thái</p>
+                                        <p class="menu-card-text">MSSV : xxxx</p>
+                                        <p class="menu-card-text">Lớp : DHKTPM19A</p>
+                                    </div>
+                                </div>
+                            </div>
+            
+                        </div>
+                    </div>
+                </section> -->
+            </div>
+             <!-- kết thúc section thứ nhất -->
+
+           <!-- section 1.5 -->
+             <div class=".content-section-text_run_left-to-right">
+                <div class="marquee-container">
+                    <div class="marquee-wrapper">
+                        <div class="marquee-text" data-text="THỜI TRANG - PHONG CÁCH - XU HƯỚNG - TRẺ TRUNG - NĂNG ĐỘNG ">
+                            THỜI TRANG - PHONG CÁCH - XU HƯỚNG - TRẺ TRUNG - NĂNG ĐỘNG - CHẤT LƯỢNG
+                        </div>
+                    </div>
+                </div>
+            </div>
+           <!-- kết thúc section 1.5 -->
+
+             <!-- section thứ hai -->
+             <div class="content-section_album-product-sale" id="sale">
+                <h2 class="content-section_heading" >GIẢM GIÁ</h2>
+                <p class="content-section_sub-heading">Chương trình từ ngày xx/x - xx/x</p>
+
+                <!-- Bộ sản phẩm 1 -->
+                <div class="home-product product-set" id="product-set-2">
+                    <div class="grid__row">
+                                 
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="" data-product="1">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item01.png);"></div>
+                                <h4 class="home-product-item__name">Áo thun boxy nam</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">400.000</span>
+                                    <span class="home-product-item__price-current">200.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="" data-product="2">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item02.png);"></div>
+                                <h4 class="home-product-item__name">Áo thun basic nam</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">300.000</span>
+                                    <span class="home-product-item__price-current">150.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="6">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item06.png);"></div>
+                                <h4 class="home-product-item__name">Áo thun tay lỡ nam</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">420.000</span>
+                                    <span class="home-product-item__price-current">210.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="20">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item20.png);"></div>
+                                <h4 class="home-product-item__name">Áo thun retro cổ tròn</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">500.000</span>
+                                    <span class="home-product-item__price-current">250.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="23">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item23.png);"></div>
+                                <h4 class="home-product-item__name">Áo sơ mi họa tiết hoa lá</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">580.000</span>
+                                    <span class="home-product-item__price-current">290.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="24">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item24.png);"></div>
+                                <h4 class="home-product-item__name">Áo sơ mi trơn cổ điển</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">440.000</span>
+                                    <span class="home-product-item__price-current">220.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="74">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item74.png);"></div>
+                                <h4 class="home-product-item__name">Giày boot cổ cao cá tính</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">1.220.000</span>
+                                    <span class="home-product-item__price-current">610.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="75">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item75.png);"></div>
+                                <h4 class="home-product-item__name">Giày sneaker Hàn Quốc</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">1.160.000</span>
+                                    <span class="home-product-item__price-current">580.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="76">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item76.png);"></div>
+                                <h4 class="home-product-item__name">Dép sandal nam </h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">780.000</span>
+                                    <span class="home-product-item__price-current">390.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="77">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item77.png);"></div>
+                                <h4 class="home-product-item__name">Dép da công sở cổ điển</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">1.340.000</span>
+                                    <span class="home-product-item__price-current">670.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="78">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item78.png);"></div>
+                                <h4 class="home-product-item__name">Dép sneaker retro 90s</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">1.120.000</span>
+                                    <span class="home-product-item__price-current">560.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="79">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item79.png);"></div>
+                                <h4 class="home-product-item__name">Dép slip-on thời trang</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">840.000</span>
+                                    <span class="home-product-item__price-current">420.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="80">
+                                <div class="home-product-item__img"
+                                    style="background-image: url(../assets/img/item80.png);"></div>
+                                <h4 class="home-product-item__name">Dép thể thao năng động</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">1.000.000</span>
+                                    <span class="home-product-item__price-current">500.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="81">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item81.png);"></div>
+                                <h4 class="home-product-item__name">Ví da nam cao cấp</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">600.000</span>
+                                    <span class="home-product-item__price-current">300.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="82">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item82.png);"></div>
+                                <h4 class="home-product-item__name">Ví mini da bò sáp</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">500.000</span>
+                                    <span class="home-product-item__price-current">250.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="83">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item83.png);"></div>
+                                <h4 class="home-product-item__name">Ví ngang da trơn</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">400.000</span>
+                                    <span class="home-product-item__price-current">200.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="84">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item84.png);"></div>
+                                <h4 class="home-product-item__name">Ví kẹp tiền mini</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">300.000</span>
+                                    <span class="home-product-item__price-current">150.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="85">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item85.png);"></div>
+                                <h4 class="home-product-item__name">Ví đứng vân cá sấu</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">700.000</span>
+                                    <span class="home-product-item__price-current">350.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="86">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item86.png);"></div>
+                                <h4 class="home-product-item__name">Thắt lưng da bò khóa kim</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">480.000</span>
+                                    <span class="home-product-item__price-current">240.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                        <div class="grid__column-2-4">
+                            <a class="home-product-item" href="#" data-product="87">
+                                <div class="home-product-item__img" style="background-image: url(../assets/img/item87.png);"></div>
+                                <h4 class="home-product-item__name">Thắt lưng tự động cao cấp</h4>
+                                <div class="home-product-item__price">
+                                    <span class="home-product-item__price-old">520.000</span>
+                                    <span class="home-product-item__price-current">260.000</span>
+                                </div>
+                                <div class="home-product-item__sale-off">
+                                    <span class="home-product-item__sale-off-percent">50%</span>
+                                    <span class="home-product-item__sale-off-label">GIẢM</span>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                        </div>
+
+                <!-- Bộ sản phẩm 2 (ban đầu ẩn đi) -->
+                <div class="home-product product-set" id="product-set-2">
+            <div class="grid__row">
+                         
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="61">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item61.png);"></div>
+                        <h4 class="home-product-item__name">Quần jean rách gối cá tính</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">660.000</span>
+                            <span class="home-product-item__price-current">330.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="62">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item62.png);"></div>
+                        <h4 class="home-product-item__name">Quần tây form slim trẻ trung</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">680.000</span>
+                            <span class="home-product-item__price-current">340.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="63">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item63.png);"></div>
+                        <h4 class="home-product-item__name">Quần short thể thao nam</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">400.000</span>
+                            <span class="home-product-item__price-current">200.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="44">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item44.png);"></div>
+                        <h4 class="home-product-item__name">Quần jogger nỉ thể thao</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">540.000</span>
+                            <span class="home-product-item__price-current">270.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="45">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item45.png);"></div>
+                        <h4 class="home-product-item__name">Quần short kaki trẻ trung</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">440.000</span>
+                            <span class="home-product-item__price-current">220.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="31">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item31.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi dáng dài phong cách</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">500.000</span>
+                            <span class="home-product-item__price-current">250.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="32">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item32.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi cổ lọ unisex</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">540.000</span>
+                            <span class="home-product-item__price-current">270.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="33">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item33.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi caro pastel</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">440.000</span>
+                            <span class="home-product-item__price-current">220.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="34">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item34.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi trắng cổ trụ dài tay</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">520.000</span>
+                            <span class="home-product-item__price-current">260.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="35">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item35.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi kẻ sọc hiện đại</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">490.000</span>
+                            <span class="home-product-item__price-current">245.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="36">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item36.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi linen cổ điển</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">560.000</span>
+                            <span class="home-product-item__price-current">280.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="37">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item37.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi form Hàn Quốc</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">470.000</span>
+                            <span class="home-product-item__price-current">235.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="38">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item38.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi ngắn tay form rộng</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">430.000</span>
+                            <span class="home-product-item__price-current">215.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="39">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item39.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi chấm bi phong cách</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">500.000</span>
+                            <span class="home-product-item__price-current">250.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="40">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item40.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi form slimfit công sở</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">530.000</span>
+                            <span class="home-product-item__price-current">265.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="24">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item24.png);"></div>
+                        <h4 class="home-product-item__name">Áo sơ mi trơn cổ điển</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">440.000</span>
+                            <span class="home-product-item__price-current">220.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="74">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item74.png);"></div>
+                        <h4 class="home-product-item__name">Giày boot cổ cao cá tính</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">1.220.000</span>
+                            <span class="home-product-item__price-current">610.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="75">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item75.png);"></div>
+                        <h4 class="home-product-item__name">Giày sneaker Hàn Quốc</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">1.160.000</span>
+                            <span class="home-product-item__price-current">580.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="76">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item76.png);"></div>
+                        <h4 class="home-product-item__name">Dép sandal nam </h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">780.000</span>
+                            <span class="home-product-item__price-current">390.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+                
+                <div class="grid__column-2-4">
+                    <a class="home-product-item" href="#" data-product="77">
+                        <div class="home-product-item__img"
+                            style="background-image: url(../assets/img/item77.png);"></div>
+                        <h4 class="home-product-item__name">Dép da công sở cổ điển</h4>
+                        <div class="home-product-item__price">
+                            <span class="home-product-item__price-old">1.340.000</span>
+                            <span class="home-product-item__price-current">670.000</span>
+                        </div>
+                        <div class="home-product-item__sale-off">
+                            <span class="home-product-item__sale-off-percent">50%</span>
+                            <span class="home-product-item__sale-off-label">GIẢM</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+                </div>
+             </div>
+             <!-- kết thúc section thứ hai -->
+
+             <!-- section thứ 3 -->
+             <div class="content-section content-section__support">
+
+                <div class="content-section__sub-support">
+                    <i class="content-section_sub-support-icon fa-solid fa-rocket"></i>
+                    <h2 class="content-section__sub-support-heading" >Giao hàng miễn phí</h2>
+                    <p class="content-section_sub__sub-support-heading">với đơn hàng từ 500k trở lên</p>
+                </div>
+
+                <div class="content-section__sub-support">
+                    <i class="content-section_sub-support-icon fa-solid fa-phone"></i>
+                    <h2 class="content-section__sub-support-heading" >Hỗ trợ 24/7</h2>
+                    <p class="content-section_sub__sub-support-heading">Hỗ trợ online / offline 24/7</p>
+                </div>
+
+                <div class="content-section__sub-support">
+                    <i class="content-section_sub-support-icon fa-solid fa-box-open"></i>
+                    <h2 class="content-section__sub-support-heading" >Miễn phí đổi trả</h2>
+                    <p class="content-section_sub__sub-support-heading">Trong vòng 7 ngày</p>
+                </div>
+
+                <div class="content-section__sub-support">
+                    <i class="content-section_sub-support-icon fa-solid fa-money-check"></i>
+                    <h2 class="content-section__sub-support-heading" >Đặt hàng trực tuyến</h2>
+                    <p class="content-section_sub__sub-support-heading">Thanh toán trực tuyến</p>
+                </div>
+    
+            </div>
+               <!-- kết thúc section thứ 3 -->
+        </div>
+
+        <div class="fooster" id="contact"> 
+            <div class="fooster-container">
+                <div class="fooster-top">
+                    <h2 class="fooster-top__label">CAM KẾT</h2>
+                    <p class="fooster-top__no-text">Trang web trên là bài tập lớn của sinh viên trường Đại Học Công Nghiệp thành phố Hồ Chí Minh hoàn toàn không dùng vào hoạt động thương mai,mọi thông tin,hình ảnh đều từ nguồn trên mạng không phải số liệu chính xác!</p>
+                </div>
+                <div class="fooster-top">
+                    <h2 class="fooster-top__label">CHÍNH SÁCH</h2>
+                    <p class="fooster-top__text">Chính sách bảo mật</p>
+                    <p class="fooster-top__text">Hướng dẫn mua hàng</p>
+                    <p class="fooster-top__text">Chính sách giao nhận,vận chuyển</p>
+                    <p class="fooster-top__text">Chính sách đổi và bảo hành sản phẩm</p>
+                </div>
+                <div class="fooster-top">
+                    <h2 class="fooster-top__label">HỆ THỐNG ALEXSHOP</h2>
+                    <p class="fooster-top__no-text">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Store 1 : Số 12 Nguyễn Văn Bảo ,phường 10,Gò Vấp</p>
+                    <p class="fooster-top__no-text">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Store 2 : Số 384 Quang Trung,phường 10,Gò Vấp</p>
+                    <p class="fooster-top__no-text">
+                        <i class="fa-solid fa-location-dot"></i>
+                        Store 3 : Số 8 Quận Hoàn Kiếm,Thủ Đô Hà Nội</p>
+                    <p class="fooster-top__no-text">
+                        <i class="fa-solid fa-phone"></i>
+                        0123 456 789</p>
+                    <p class="fooster-top__no-text">
+                        <i class="fa-solid fa-envelope"></i>
+                        AlexShopStore@gmail.com</p>
+                </div>
+                <div class="fooster-top">
+                    <h2 class="fooster-top__label">FANPAGE</h2>
+                    <p class="fooster-top__text-icon fooster-top__text-fb">
+                        <i class="fooster-icon-fb fa-brands fa-square-facebook"></i>
+                        Facebook</p>
+                    <p class="fooster-top__text-icon fooster-top__text-ins">
+                        <i class="fooster-icon-ins fa-brands fa-instagram"></i>
+                        Instagram</p>
+                </div>
+            </div>
+        </div>
+        <div class="fooster-real">
+            AlexShop cửa hàng uy tín bật nhất Đông Nam Á
+        </div>
+    </div>
+
+   <!-- Product Modal -->
+   <div class="product-modal">
+    <div class="modal__overlay"></div>
+    <div class="modal__body">
+        <div class="product-detail">
+            <!-- Nút đóng -->
+            <div class="product-detail__close">
+                <i class="fas fa-times"></i>
+            </div>
+            
+            <div class="grid__row">
+                <!-- Cột hình ảnh -->
+                <div class="grid__column-5">
+                    <div class="product-detail__img-container">
+                        <img src="" alt="Tên sản phẩm" class="product-detail__img" id="product-modal-image">
+                    </div>
+                </div>
+                
+                <!-- Cột thông tin -->
+                <div class="grid__column-7">
+                    <!-- Tên sản phẩm -->
+                    <h3 class="product-detail__name" id="product-modal-name">Áo thun boxy nam</h3>
+                    
+                    <!-- Giá sản phẩm -->
+                    <div class="product-detail__price">
+                        <span class="product-detail__price-old" id="product-modal-old-price">400.000đ</span>
+                        <span class="product-detail__price-current" id="product-modal-current-price">200.000đ</span>
+                        <span class="product-detail__sale-off" id="product-modal-discount">-50%</span>
+                    </div>
+                    
+                    <!-- Chọn size -->
+                    <div class="product-detail__size">
+                        <span class="size-label">Size:</span>
+                        <div class="size-options" id="product-size-options">
+                            <button type="button" class="size-option active" data-size="S">S</button>
+                            <button type="button" class="size-option" data-size="M">M</button>
+                            <button type="button" class="size-option" data-size="L">L</button>
+                            <button type="button" class="size-option" data-size="XL">XL</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Mô tả sản phẩm -->
+                    <div class="product-detail__desc" id="product-modal-desc">
+                        <p>Chất liệu: Cotton 100%</p>
+                        <p>Màu sắc: Đen, Trắng, Xám</p>
+                    </div>
+                    
+                    <!-- Chọn số lượng -->
+                    <div class="product-detail__quantity">
+                        <span>Số lượng:</span>
+                        <div class="quantity-control">
+                            <button type="button" class="quantity-control__btn minus">-</button>
+                            <input type="number" value="1" min="1" class="quantity-control__input" id="product-quantity">
+                            <button type="button" class="quantity-control__btn plus">+</button>
+                        </div>
+                    </div>
+                    
+                    <!-- Các nút hành động -->
+                    <div class="product-detail__actions">
+                        <button type="button" class="btn btn-primary btn-add-to-cart">THÊM VÀO GIỎ HÀNG</button>
+                        <button type="button" class="btn btn-danger btn-buy-now">MUA NGAY</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

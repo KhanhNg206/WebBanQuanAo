@@ -1,0 +1,58 @@
+.gioiThieu_content-section_heading{
+    font-size: 30px;
+    text-align: left;
+    letter-spacing: 4px;
+}
+
+.gioiThieu_content-section{
+    width: 1150px;
+    padding: 64px 32px 0 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.gioiThieu_container-thanhVien {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 30px; 
+    padding: 20px; 
+}
+
+.container_thanhVien_01, .container_thanhVien_02 {
+    background-color: #f9f9f9; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    padding: 20px; 
+    text-align: center; 
+    width: 400px; 
+    transition: transform 0.3s ease; 
+}
+
+.container_thanhVien_01:hover, .container_thanhVien_02:hover {
+    transform: translateY(-5px); 
+}
+
+.thanhVien_img {
+    margin-bottom: 15px; 
+}
+
+.thanhVien_img-img {
+    width: 250px; 
+    height: 250px; 
+    border-radius: 10px; 
+    object-fit: cover; 
+    border: 3px solid #ddd; 
+}
+
+.thanhVien_text {
+    margin: 8px 0; 
+    font-size: 16px; 
+    color: #333; 
+    font-family: Arial, sans-serif; 
+}
+
+.thanhVien_title {
+    font-weight: bold; 
+    font-size: 18px;
+}

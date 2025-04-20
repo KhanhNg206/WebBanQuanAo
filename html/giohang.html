@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ Hàng</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> -->
+    <link rel="stylesheet" href="../assets/font/fontawesome-free-6.7.2-web/css/all.min.css">
+    <link rel="stylesheet" href="../assets/css/base.css">
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/giohang.css">
+
+    <script src="../assets/js/gioHang.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="header__img-home">
+                <img src="../assets/img/logo01.png" alt="" class="img-home">
+            </div>
+            <div class="header_nav">
+                <a class="header-nav_select" href="index.html">TRANG CHỦ</a>
+                <a class="header-nav_select" href="shop.html">CỬA HÀNG</a>
+                <div class="dropdown-menu">
+                    <a href="aoThun.html" class="dropdown-item">Áo Thun</a>
+                    <a href="aoSoMi.html" class="dropdown-item">Áo Sơ Mi</a>
+                    <a href="quan.html" class="dropdown-item">Quần</a>
+                    <a href="giay.html" class="dropdown-item">Giày</a>
+                    <a href="phuKien.html" class="dropdown-item">Phụ kiện</a>
+                    <!-- Thêm các sản phẩm khác nếu cần -->
+                </div>
+                <a class="header-nav_select" href="gioiThieu.html">GIỚI THIỆU</a>
+                <a class="header-nav_select" href="#contact">LIÊN HỆ</a>
+            </div>
+
+            <div class="header_right">
+                <div class="header_right-search">
+                    <input type="text" class="header_search-input" placeholder="Tìm kiếm ở đây">
+                    <i class="header_search-icon fas fa-search"></i>
+                </div>
+                <div class="header_right-icon">
+                    <a href="dangNhap.html"><i class="header_right-icon-user fas fa-user"></i></a>
+                    <a href="giohang.html"><i class="header_right-icon-cart fas fa-shopping-cart"></i></a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="cart-header">
+            <h1 class="cart-title">GIỎ HÀNG CỦA BẠN</h1>
+        </div>
+        
+        <div class="cart-content">
+            <div class="cart-items" id="cart-items-container">
+                <!-- Cart items will be loaded here -->
+            </div>
+            
+            <div class="cart-summary" id="cart-summary">
+                <h3 class="summary-title">TÓM TẮT ĐƠN HÀNG</h3>
+                <div class="summary-row">
+                    <span>Tạm tính:</span>
+                    <span id="subtotal">0đ</span>
+                </div>
+                <div class="summary-row">
+                    <span>Phí vận chuyển:</span>
+                    <span>0đ</span>
+                </div>
+                <div class="summary-row summary-total">
+                    <span>Tổng cộng:</span>
+                    <span id="total">0đ</span>
+                </div>
+                <button class="btn-checkout" id="btn-checkout">TIẾN HÀNH THANH TOÁN</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
